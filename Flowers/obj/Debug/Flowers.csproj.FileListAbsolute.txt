@@ -1,0 +1,12 @@
+C:\Users\Ортем\source\repos\Flowers\Flowers\bin\Debug\Flowers.exe.config
+C:\Users\Ортем\source\repos\Flowers\Flowers\bin\Debug\Flowers.exe
+C:\Users\Ортем\source\repos\Flowers\Flowers\bin\Debug\Flowers.pdb
+C:\Users\Ортем\source\repos\Flowers\Flowers\bin\Debug\Cryptic Captcha.dll
+C:\Users\Ортем\source\repos\Flowers\Flowers\obj\Debug\Flowers.csproj.AssemblyReference.cache
+C:\Users\Ортем\source\repos\Flowers\Flowers\obj\Debug\Flowers.AuthForm.resources
+C:\Users\Ортем\source\repos\Flowers\Flowers\obj\Debug\Flowers.Properties.Resources.resources
+C:\Users\Ортем\source\repos\Flowers\Flowers\obj\Debug\Flowers.csproj.GenerateResource.cache
+C:\Users\Ортем\source\repos\Flowers\Flowers\obj\Debug\Flowers.csproj.CoreCompileInputs.cache
+C:\Users\Ортем\source\repos\Flowers\Flowers\obj\Debug\Flowers.csproj.CopyComplete
+C:\Users\Ортем\source\repos\Flowers\Flowers\obj\Debug\Flowers.exe
+C:\Users\Ортем\source\repos\Flowers\Flowers\obj\Debug\Flowers.pdb

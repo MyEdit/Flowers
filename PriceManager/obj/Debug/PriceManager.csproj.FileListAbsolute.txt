@@ -1,0 +1,6 @@
+C:\Users\Ортем\source\repos\Flowers\PriceManager\bin\Debug\PriceManager.dll
+C:\Users\Ортем\source\repos\Flowers\PriceManager\bin\Debug\PriceManager.pdb
+C:\Users\Ортем\source\repos\Flowers\PriceManager\obj\Debug\PriceManager.csproj.AssemblyReference.cache
+C:\Users\Ортем\source\repos\Flowers\PriceManager\obj\Debug\PriceManager.csproj.CoreCompileInputs.cache
+C:\Users\Ортем\source\repos\Flowers\PriceManager\obj\Debug\PriceManager.dll
+C:\Users\Ортем\source\repos\Flowers\PriceManager\obj\Debug\PriceManager.pdb

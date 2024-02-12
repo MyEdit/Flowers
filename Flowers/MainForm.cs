@@ -1,4 +1,6 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace Flowers
 {
@@ -9,6 +11,24 @@ namespace Flowers
         {
             InitializeComponent();
             UserID = userID;
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            loadDataGrids();
+        }
+
+        private void loadDataGrids()
+        {
+            dataGridView1.Rows.Clear();
+            List<string[]> Response = DataBaseWorker.ExecuteQuery("SELECT ProductArticle, ProductName, ProductCategory, ProductManufacturer, ProductCost, ProductDiscount, ProductQuality, TheSupplier  FROM Products", 8);
+            if (Response != null)
+            {
+                foreach (string[] ResponseItem in Response)
+                {
+                    dataGridView1.Rows.Add(ResponseItem[0], ResponseItem[1], ResponseItem[2], ResponseItem[3], ResponseItem[4], ResponseItem[5], ResponseItem[6], ResponseItem[7]);
+                }
+            }
         }
     }
 }

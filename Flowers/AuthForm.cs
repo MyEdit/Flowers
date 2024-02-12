@@ -29,6 +29,18 @@ namespace Flowers
                 reloadCaptcha();
                 return;
             }
+
+            int userID = DataBaseWorker.ExecuteQueryOnlyOneInt("SELECT UserID FROM Users WHERE UserLogin = '" + textBoxLogin.Text + "' AND UserPassword = '" + textBoxPass.Text + "'");
+
+            if (userID == -1)
+            {
+                MessageBox.Show("Логин или пароль неверный", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            MainForm MainForm = new MainForm(userID);
+            MainForm.Show();
+            Hide();
         }
     }
 }
